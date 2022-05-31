@@ -1,0 +1,16 @@
+@import "../../styles/base.scss";
+
+.main-title {
+    span {
+        color: $secondary-color;
+        font-size: x-large;
+        font-weight: bold;
+    }
+
+    .decoration {
+        width: 50px;
+        height: 3px;
+        margin-top: 10px;
+        background: $light-blue;
+    }
+}

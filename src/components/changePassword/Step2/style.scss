@@ -1,0 +1,35 @@
+@import "../../../styles/base";
+
+.step2 {
+    .content {
+        margin: 30px 50px;
+        max-width: 800px;
+
+        .eye-img {
+            cursor: pointer;
+        }
+
+        .typing {
+            margin: 15px;
+        }
+
+        .margin-text {
+            margin: 20px 0px;
+        }
+
+        .display-inputs {
+            display: flex;
+        }
+
+        .clue {
+            margin: 20px 0px;
+        }
+    }
+
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 50px;
+        border-top: 1px solid $gray;
+    }
+}

@@ -1,0 +1,40 @@
+@import "../../styles/base";
+
+.base-button {
+    padding: 15px 20px;
+    height: fit-content;
+    min-height: 40px;
+    min-width: 100px;
+    border: none;
+    border-radius: 2px;
+    font-weight: bold;
+    cursor: pointer;
+
+    &.disabled {
+        opacity: 0.5;
+        cursor: default;
+    }
+}
+
+.button-filled {
+    background: $secondary-color;
+    color: $white;
+}
+
+.button-primary {
+    background: $white;
+    color: $primary-color;
+    margin: 15px 20px;
+    padding: 0px;
+    min-width: 0px;
+    min-height: 0px;
+}
+
+.button-secundary {
+    background: $white;
+    color: $secondary-color;
+    margin: 15px 20px;
+    padding: 0px;
+    min-width: 0px;
+    min-height: 0px;
+}

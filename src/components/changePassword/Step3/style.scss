@@ -1,0 +1,15 @@
+@import "../../../styles/base";
+
+.step3 {
+    .content {
+        display: flex;
+        margin: 30px 50px;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: flex-end;
+        padding: 20px 50px;
+        border-top: 1px solid $gray;
+    }
+}
