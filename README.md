@@ -11,4 +11,4 @@ Open [http://localhost:3000](http://localhost:3000) to view it.
 
 ### `npm lint`
 
-To show the slint warning/errors.
+To show the eslint warning/errors.
